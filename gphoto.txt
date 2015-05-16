@@ -1,0 +1,9 @@
+killall PTPCamera
+
+gphoto2 --set-config shutterspeed=bulb
+
+gphoto2 --set-config eosremoterelease=Immediate --wait-event=100s --set-config eosremoterelease=Off --force-overwrite --capture-image-and-download
+
+
+#stay awake
+gphoto2 --summary

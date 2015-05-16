@@ -1,0 +1,4 @@
+{
+	"uarm"	:	"/dev/tty.usbserial-A6031W7I", 
+	"rgb"	:	"/dev/tty.usbmodemfd131"
+}
